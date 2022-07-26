@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://www.zupimages.net/up/22/30/e1nw.png');
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    align-items: center;
+}
+@font-face { 
+    font-family: "Games"; 
+    src: url("https://dl.dropboxusercontent.com/s/574p1205gitwm85/Game%20of%20Thrones.ttf"); }
+@font-face {
+    font-family: "Felix";
+    src: url("https://dl.dropboxusercontent.com/s/wrhgcmcf8niy4ye/Felixti.TTF")
+}
+@font-face {
+    font-family: "Light";
+    src: url("https://dl.dropboxusercontent.com/s/lglothihlpo6ioi/WarnockPro-LightDisp.otf");
+}
+
+
+.container {
+    color:rgb(160, 160, 160);
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    width: 50%;
+    font-family: "Light";
+}
+
+.imgHouses {
+    justify-content:space-around;
+    width: 30%;
+}
+
+.resultHouses {
+    width: 50%;
+    text-align: center;
+    font-family: "Light";
+    font-style: italic;
+}
+h1 {
+    font-weight: lighter;
+    font-family: "Games";
+    font-weight: lighter;
+    font-size: 60px;
+}
