@@ -1,11 +1,12 @@
 body {
     background-image: url('https://www.zupimages.net/up/22/30/e1nw.png');
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+    background-size:cover;
     background-repeat: no-repeat;
     background-color: black;
     align-items: center;
+    overflow: hidden;
 }
 @font-face { 
     font-family: "Games"; 
@@ -37,18 +38,137 @@ body {
 
 .imgHouses {
     justify-content:space-around;
-    width: 30%;
+    width: 25%;
 }
 
-.resultHouses {
-    width: 50%;
-    text-align: center;
-    font-family: "Light";
-    font-style: italic;
-}
 h1 {
     font-weight: lighter;
     font-family: "Games";
     font-weight: lighter;
     font-size: 60px;
+}
+
+.quote {
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    font-family: 'Light';
+    margin-top: 3%;
+    opacity: 0.5;
+    letter-spacing: 3.5px;
+    text-shadow: 1px 1px 2px #a59698c2;
+
+}
+
+.offquote {
+
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    margin-top: 0%;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.resultShi {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Felix";
+    font-weight: lighter;
+    font-size: 35px;
+    border-radius: 2px; 
+    color:rgb(160, 160, 160);
+    justify-content: center;
+    margin-top: -5%;
+    text-shadow: 10px 10px 6px #615c5c;
+}
+.resultComputer {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    color:rgb(160, 160, 160);
+    text-align: center;
+    font-family: "Light";
+    justify-content: center;
+    margin-top: -5%;
+}
+
+.resultPlayer {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    font-family: "Light";
+    color:rgb(160, 160, 160);
+    justify-content: center;
+    margin-top: -5%;
+}
+.countUser {
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* font-style: italic; */
+    font-family: "Games";
+    font-weight: lighter;
+    margin-top: 0%;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 19px;
+    position: absolute;
+    width: 300px;
+    top: 35%;
+    left: 10%;
+}
+
+#countUser {
+    font-family: "Games";
+    font-weight: lighter;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.countComputer {
+    position: absolute;
+    width: 300px;
+    top: 35%;
+    right: 10%;
+    letter-spacing: 2px;
+    font-size: 19px;
+    font-family: "Games";
+    font-weight: lighter;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0%;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+
+#countComputer {
+    font-family: "Games";
+    font-weight: lighter;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.countBox {
+    color: #615c5c;
 }

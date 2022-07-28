@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+@font-face { 
+    font-family: "Games"; 
+    src: url("https://dl.dropboxusercontent.com/s/574p1205gitwm85/Game%20of%20Thrones.ttf"); }
+@font-face {
+    font-family: "Felix";
+    src: url("https://dl.dropboxusercontent.com/s/wrhgcmcf8niy4ye/Felixti.TTF")
+}
+@font-face {
+    font-family: "Light";
+    src: url("https://dl.dropboxusercontent.com/s/lglothihlpo6ioi/WarnockPro-LightDisp.otf");
+}
+.bloc {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.bloc video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); */
+}
+
+.bloc::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    background-color: #000000cc;
+}
+
+.content {
+
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   z-index: 99;
+ 
+}
+
+h1 {
+    color:aliceblue;
+    font-weight: lighter;
+    font-family: "Felix";
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    border: #ffffff 1px solid;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color:aliceblue;
+    text-decoration: none;
+}
+audio {
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
